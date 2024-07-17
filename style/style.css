@@ -11,6 +11,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+img{
+    width: 100%;
+}
 header {
   width: 80%;
   margin: 50px auto;
@@ -87,4 +90,21 @@ ul li {
 }
 .banner-img img {
   width: 100%;
+}
+/* <!-- =++==++==++==++==++==++==++==++==++==++==++==++=
+Sponsors-img
+=++==++==++==++==++==++==++==++==++==++==++==++= --> */
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.sponsors-img {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(7, 1fr);
+  
+}
+.sponsors-img img {
+width: 100%;
 }
