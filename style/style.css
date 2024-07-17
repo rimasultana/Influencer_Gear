@@ -24,6 +24,15 @@ header {
   align-items: center;
   margin-top: 50px;
 }
+
+.nav h3 {
+  color: rgb(58, 58, 58);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
 ul {
   display: flex;
   gap: 35px;
