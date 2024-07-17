@@ -191,8 +191,8 @@ Featured products at one place
   justify-content: center;
   align-items: center;
 }
-.Featured-products-img{
-  width: 404px;
+.Featured-products-img {
+  width: 600px;
   border-radius: 8px;
 }
 .Featured-products-img img {
@@ -230,4 +230,49 @@ Featured products at one place
   gap: 10px;
   align-items: center;
   justify-content: center;
+}
+/* <!-- =++==++==++==++==++==++==++==++==++==++==++==++=
+                    footer-section
+=++==++==++==++==++==++==++==++==++==++==++==++= --> */
+.Influencer-section {
+  width: 100%;
+  margin: auto 0;
+  border: 2px solid green;
+  margin-top: 50px;
+}
+.Influencer-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(170, 170, 170);
+}
+.Influencer-container h3 {
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.Influencer-container p {
+  color: rgb(217, 219, 225);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.social-icon {
+  margin-top: 15px;
+  width: 17.07px;
+  height: 17.04px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
 }
